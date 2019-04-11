@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poker</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Full-Pivot Poker! </h1>
+    </header>
+    <main>
+        <h2>Instructions:</h2>
+        <p>You, the player are matched up against the computer in a game of five card draw poker, ace high.
+            Discard up to three cards. Track your score against the computer!</p>
+        <span id='player-score'></span>
+        <span id= 'computer-score'></span>
+        <div id="game-board" class="board clearfix">
+
+        </div>
+    </main>
+    <div class = background>
+    <div>
+        <div id='card1' class = 'cards'></div>
+        <img src="images/back.png" class ="back1">
+        <div id='card2' class = 'cards'></div>
+        <img src="images/back.png" class ="back2">
+        <div id='card3' class = 'cards'></div>
+        <img src="images/back.png" class ="back3">
+        <div id='card4' class = 'cards'></div>
+        <img src="images/back.png" class ="back4">
+        <div id='card5' class = 'cards'></div>
+        <img src="images/back.png" class ="back5">
+    </div>
+    <button id='discard1' class="discard">DISCARD</button>
+    <button id='discard2' class="discard">DISCARD</button>
+    <button id='discard3' class="discard">DISCARD</button>
+    <button id='discard4' class="discard">DISCARD</button>
+    <button id='discard5' class="discard">DISCARD</button>
+    </div>
+    <button id='deal'>DEAL</button>
+    <button id='dealAgain'>DEAL AGAIN</button>
+    <button id='roundTwo'>DEAL</button>
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+     <script src="js/app.js"></script>
+</body>
+</html>
